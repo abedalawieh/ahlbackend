@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://activityhublebanon.onrender.com/",
+    origin: "https://activityhublebanon.onrender.com",
     methods: ["POST,GET,PUT,DELETE"],
     credentials: true,
   })
