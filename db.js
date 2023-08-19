@@ -1,6 +1,6 @@
 import mysql from "mysql";
 const db = mysql.createConnection({
-    host:"http://sql6.freemysqlhosting.net/",
+    host:"sql6.freemysqlhosting.net",
     user : "sql6640921",
     password: "PQTyEQShDy",
     database: "sql6640921"
