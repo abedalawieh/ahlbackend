@@ -132,10 +132,7 @@ app.post("/api/login/sp", async (req, res) => {
     res.status(500).send("Something went wrong!!!");
   }
 });
-app.get("/",(req,res) => {
-  res.setHeader("Access-Control-Allow-Credentials","true");
-  res.send("Api Running");
-});
+
 app.get("/api/posts/site/:id", (req, res) => {
   const id = req.params.id;
 
