@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://activityhublebanon.onrender.com" || "http://localhost:3000",
+    origin: "http://localhost:3000",
     methods: ["POST,GET,PUT,DELETE"],
     credentials: true,
   })
